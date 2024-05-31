@@ -156,7 +156,7 @@ class MyBot(BaseBot):
           }
           # تحقق من البداية وقم بإرسال الرقصة المناسبة لجميع المستخدمين في الغرفة
           for key, emote in emote_mapping.items():
-            if message.startswith(key) and user.username in ["T9s", "RavingRiley"]:
+            if message.startswith(key) and user.username in ["T9s", "MinYno0nAa"]:
                 roomUsers = (await self.highrise.get_room_users()).content
                 for roomUser, _ in roomUsers:
                     if isinstance(roomUser, User):
