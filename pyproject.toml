@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.12"
-highrise-bot-sdk = "23.3.4"
+highrise-bot-sdk = "24.1.0"
 requests = "^2.32.3"
 
 [tool.pyright]
