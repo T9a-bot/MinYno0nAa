@@ -392,13 +392,13 @@ files = [
 
 [[package]]
 name = "highrise-bot-sdk"
-version = "23.3.4"
+version = "24.1.0"
 description = "The Highrise Bot SDK, for running Highrise bots written in Python."
 optional = false
-python-versions = ">=3.10,<4.0"
+python-versions = "<4.0,>=3.10"
 files = [
-    {file = "highrise_bot_sdk-23.3.4-py3-none-any.whl", hash = "sha256:71c7fab773d4cf020778582f11ab7ae85d0554cc112cb43f106460c13178b01e"},
-    {file = "highrise_bot_sdk-23.3.4.tar.gz", hash = "sha256:3bbcaac2e95cfdc8065c0dd4d741199f64180afd9b86a400c45cd413ba5065ba"},
+    {file = "highrise_bot_sdk-24.1.0-py3-none-any.whl", hash = "sha256:97fd091a71b6b6d08f627ecbcd06b60ecade3efeba297093750a565ddfa27d5b"},
+    {file = "highrise_bot_sdk-24.1.0.tar.gz", hash = "sha256:a4cc84ce4d82ea6d4061154c0b889b05bff16df6900b1145852a2c6ed585d608"},
 ]
 
 [package.dependencies]
@@ -762,4 +762,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.12"
-content-hash = "211bd455a1afa4f015f36228578a81487f1058289294a369219c9a265c93177c"
+content-hash = "5c02394d98e5fbfff07a3d8bf9ca7a3c81e48ffa3b393b746774ed92e06e3688"
