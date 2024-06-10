@@ -112,7 +112,6 @@ class MyBot(BaseBot):
 
     async def on_user_join(self, user: User, position: Position | AnchorPosition):
        await self.highrise.chat(f" Welcome to CampHut, feel free to sit anywhere and make friends {user.username} ")
-      
 
     async def run(self, room_id, token):
        definitions = [BotDefinition(self, room_id, token)]
